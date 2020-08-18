@@ -117,8 +117,16 @@
               "devServerTarget": "covid-cases:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "covid-cases"
+    }
+  },
+  "defaultProject": "covid-cases",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "covid-check-59964": {
+      "hosting": {
+        "covid-cases": [
+          "covid-check-59964"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "covid-check-59964"
+  }
+}

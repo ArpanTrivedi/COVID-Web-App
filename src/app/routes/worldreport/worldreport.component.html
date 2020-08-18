@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="container">
+    <img src="../../../assets/stayhome.jpg" alt="stay home stay safe" class="img-fluid">
+  </div>
+  <div *ngIf="result" class="container">
+    <div class="row">
+      <div class="col-8 offset-2">
+        <div class="container">
+          <span class="text-info">Cases </span><h3 class="text-dark">{{result?.cases}}</h3>
+          <span class="text-info">Critical </span><h3 class="text-dark">{{result?.critical}}</h3>
+          <span class="text-info">TotalDeaths </span><h3 class="text-dark">{{result?.deaths}}</h3>
+          <span class="text-info">Population </span><h3 class="text-dark">{{result?.population}}</h3>
+          <span class="text-info">ActivePerOneMillion </span><h3 class="text-dark">{{result?.activePerOneMillion}}</h3>
+          <span class="text-info">RecoveredPerOneMillion </span><h3 class="text-dark">{{result?.recoveredPerOneMillion}}</h3>
+          <span class="text-info">CriticalPerOneMillion </span><h3 class="text-dark">{{result?.criticalPerOneMillion}}</h3>
+          <span class="text-info">CasesPerOneMillion </span><h3 class="text-dark">{{result?.casesPerOneMillion}}</h3>
+          <span class="text-info">DeathsPerOneMillion </span><h3 class="text-dark">{{result?.deathsPerOneMillion}}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

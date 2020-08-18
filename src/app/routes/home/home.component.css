@@ -1,0 +1,12 @@
+input:hover{
+  box-shadow: none !important;
+}
+.border{
+  border: 2px solid #000;
+}
+.border:hover{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.7);
+}
+a{
+  text-decoration: none;
+}
